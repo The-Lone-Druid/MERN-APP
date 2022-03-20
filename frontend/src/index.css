@@ -86,12 +86,6 @@ h3 {
   color: #828282;
 }
 
-.goals {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-
 .goal {
   background-color: #f4f4f4;
   margin: 10px 0;
@@ -110,7 +104,7 @@ h3 {
 
 .form,
 .content {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 

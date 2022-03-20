@@ -6,7 +6,7 @@ const GoalItem = ({ goal }) => {
     const dispatch = useDispatch()
 
     return (
-        <div className="goal">
+        <div className="goal" style={{width: "100%"}}>
             <div>
                 {new Date(goal.createdAt).toLocaleString('en-US')}
             </div>
